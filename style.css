@@ -29,3 +29,69 @@ a {
     height: 80px;
     width: 80px;
 }
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.main-coffee {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.hero-left-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    width: 500px;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card {
+    width: 250px;
+    border-radius: 20px;
+    /*to be removed, using border for better visibility*/
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-coffee {
+    width: 225px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.type-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.card-name , .card-info {
+    padding: 10px;
+}
