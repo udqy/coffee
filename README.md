@@ -1,3 +1,3 @@
 # coffee
-This is an assignment for the odinproject.com
+This is an assignment for the theodinproject.com
 Open for suggestions!
