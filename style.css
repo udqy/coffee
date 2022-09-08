@@ -57,6 +57,7 @@ button {
     border: 1px solid black;
     padding: 15px;
     background-color: #e79e62;
+    cursor:pointer;
 }
 
 .card {
@@ -158,3 +159,4 @@ button {
     padding: 20px;
     background-color: rgb(231, 182, 77);
 }
+
